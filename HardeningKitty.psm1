@@ -647,8 +647,20 @@
     # Header
     #
     Write-Output "`n"
+    Write-Output "              _       _____   _________    ___         ____    ____   ______    ______   _______        "
+	Write-Output "             / \     |_   _| |  _   _  | .'   `.      |_   \  /   _|.' ____ \ .' ____ \ |_   __ \       "
+	Write-Output "            / _ \      | |   |_/ | | \_|/  .-.  \       |   \/   |  | (___ \_|| (___ \_|  | |__) |      "
+	Write-Output "           / ___ \     | |   _   | |    | |   | |       | |\  /| |   _.____`.  _.____`.   |  ___/       "
+	Write-Output "         _/ /   \ \_  _| |__/ | _| |_   \  `-'  /      _| |_\/_| |_ | \____) || \____) | _| |_          "
+	Write-Output "        |____| |____||________||_____|   `.___.'      |_____||_____| \______.' \______.'|_____|         "
+	Write-Output "   ______    ___   ____    ____  _______  _____     _____       _       ____  _____   ______  ________  "
+	Write-Output " .' ___  | .'   `.|_   \  /   _||_   __ \|_   _|   |_   _|     / \     |_   \|_   _|.' ___  ||_   __  | "
+	Write-Output "/ .'   \_|/  .-.  \ |   \/   |    | |__) | | |       | |      / _ \      |   \ | | / .'   \_|  | |_ \_| "
+	Write-Output "| |       | |   | | | |\  /| |    |  ___/  | |   _   | |     / ___ \     | |\ \| | | |         |  _| _  "
+	Write-Output "\ `.___.'\\  `-'  /_| |_\/_| |_  _| |_    _| |__/ | _| |_  _/ /   \ \_  _| |_\   |_\ `.___.'\ _| |__/ | "
+	Write-Output " `.____ .' `.___.'|_____||_____||_____|  |________||_____||____| |____||_____|\____|`.____ .'|________| "
     Write-Output "      =^._.^="
-    Write-Output "     _(      )/  HardeningKitty $HardeningKittyVersion"
+    Write-Output "     _(      )/  Powered by HardeningKitty $HardeningKittyVersion"
     Write-Output "`n"
     Write-ProtocolEntry -Text "Starting HardeningKitty" -LogLevel "Info"
 
